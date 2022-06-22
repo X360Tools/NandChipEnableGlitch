@@ -27,7 +27,7 @@ This means CB_B MUST NOT BE BIGGER then C000 bytes.
 
 Also there is no cache, write or data execution protections.
 
-This is reverse engineered source code of the interesting part happens, this is the same on retail and mfg CB_A:
+This is reverse engineered source code of the CB_A, where the interesting part happens: (this is the same on retail and mfg CB_A)
 ```
 void load_sb_b(_BLDR_2BL *sb_a_bldr@<r2>, _BLDR_2BL *sb_b_nand_offset@<r3>, _BLDR_2BL *sb_b_load_addr@<r4>)
 {
